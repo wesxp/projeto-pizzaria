@@ -126,5 +126,28 @@ ul > li{
 .telefone{
     color: black;
 }
+.container2{
+    background-color: rgba(0, 0, 0, 0.399);
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid{
+    width: 300px;
+    height: 286px;
+    background-color: black;
+    background-image: url(imagens/Beige\ Minimalist\ Collage\ Instagram\ Post.png);
+    background-position: center;
+    background-repeat: none;
+    background-size:cover;
+    
+    
+}
+.descrição-promo{
+    
+    width: 300px;
+    text-align: center;
+}
 
 
