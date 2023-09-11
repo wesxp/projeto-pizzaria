@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{
     font-weight: normal;
-    font-style: normal;
+
 }
 html {
     scroll-behavior: smooth;
@@ -53,6 +53,7 @@ header{
 }
 nav{
     text-align: center;
+    
 }
 nav > a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -73,7 +74,51 @@ main{
     max-width: 947px;
     margin: 30px auto;
 }
-
+.chamada{
+    background-color: #770005;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border-radius:0px 0px 23px 23px ;
+    
+}
+.chamada1>p{
+    font-size: larger;
+    margin: 0;
+}
+.chamada1{
+    width: 512px;
+    height: 113px;
+    padding-top: 2px;
+}
+.botão{
+    background-color: #eadac0;;
+    font-size:13px;
+    text-transform: uppercase;
+    width: 163px;
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 5px; 
+    transition: 1.2s;
+}
+.botão>p{
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.botão:hover{
+    transform: scale3d(1.1,1.1,1);
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 body{
     background-color:#eadac0;
     
@@ -146,6 +191,11 @@ ul > li{
 }
 .container2{
     background-color:#807e2a;
+    background-image: url(imagens/4464061.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-position: left center;
+    background-size: cover;
     height:300px;
     display: flex;
     justify-content: space-evenly;
@@ -222,4 +272,5 @@ a> button{
 .card:hover{
     transform:scale3d(1.1,1.1,1);    
 }
+
 
